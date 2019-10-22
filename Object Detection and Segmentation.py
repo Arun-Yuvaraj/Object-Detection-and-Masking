@@ -125,7 +125,7 @@ def display_instances(image, boxes, masks, ids, names, scores):
 # In[ ]:
 
 
-capture = cv2.VideoCapture('video1.mp4')
+capture = cv2.VideoCapture('video1.mp4') # here a pre-recorded video is used
 
     # these 2 lines can be removed if you dont have a 1080p camera.
 capture.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
